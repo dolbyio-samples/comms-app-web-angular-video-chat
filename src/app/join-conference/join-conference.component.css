@@ -1,0 +1,11 @@
+.create-conference-content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30%;
+}
+
+.create-conference-content form {
+  display: flex;
+  flex-direction: column;
+}

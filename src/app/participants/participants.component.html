@@ -1,0 +1,12 @@
+<div class="right-panel">
+    <ul>
+        <li *ngFor="let member of participants">
+            <div class="participant">
+                <div class="name" id="{{member.id}}">{{ member.info.name }}</div>
+                <div class="info">
+                    <div class="status">{{ member.status }}</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

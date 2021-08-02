@@ -1,0 +1,22 @@
+<div class="container" *ngIf="error !== null">
+  <div>
+    {{ error }}
+  </div>
+</div>
+<div class="container" *ngIf="error === null">
+  <div class="main-panel">
+    <app-video-panel [me]="me" class="video-panel"></app-video-panel>
+    <app-participants></app-participants>
+  </div>
+  <div class="controls-panel">
+    <button mat-stroked-button id="mute-video-btn" (click)="onToggleVideoClick()" class="ctrl-button">
+        <mat-icon>{{ toggleVideoButtonIcon }}</mat-icon> {{ toggleVideoButtonTitle }}
+    </button>
+    <button mat-stroked-button id="mute-audio-btn" (click)="onToggleAudioClick()" class="ctrl-button">
+        <mat-icon>{{ toggleAudioButtonIcon }}</mat-icon> {{ toggleAudioButtonTitle }}
+    </button>
+    <button mat-stroked-button id="leave-btn" (click)="onLeaveClick()" class="ctrl-button">
+        <mat-icon>exit_to_app</mat-icon> Leave
+    </button>
+  </div>
+</div>

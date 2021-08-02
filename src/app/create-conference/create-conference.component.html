@@ -1,0 +1,50 @@
+<div class="create-conference-container">
+  <div class="create-conference-content" *ngIf="conferenceId === null">
+    <p class="mat-headline">
+      Creating a Conference:
+    </p>
+    <form [formGroup]="conferenceForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Pin Code</mat-label>
+        <input matInput id="pinCode" type="text" formControlName="pinCode" />
+      </mat-form-field>
+
+      <section class="conf-options-section">
+        <mat-checkbox class="checkbox-margin" formControlName="dolbyVoice">Use Dolby Voice</mat-checkbox>
+        <mat-checkbox class="checkbox-margin" formControlName="liveRecording">Allow Live Recording</mat-checkbox>
+      </section>
+
+      <mat-form-field appearance="fill">
+        <mat-label>RTCP Mode</mat-label>
+        <mat-select formControlName="rtcpMode">
+          <mat-option value="worst">Worst</mat-option>
+          <mat-option value="average">Average</mat-option>
+          <mat-option value="max">Max</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Video Codec</mat-label>
+        <mat-select required formControlName="videoCodec">
+          <mat-option value="H264" selected>H264</mat-option>
+          <mat-option value="V8">V8</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" class="button" type="submit">Create</button>
+
+    </form>
+  </div>
+  <div class="create-conference-content" *ngIf="conferenceId !== null">
+    <p class="mat-headline">
+      Congratulations! You've created the conference.
+    </p>
+    <p>
+      Now you can invite your friends and tell them the conference ID to join:
+    </p>
+    <mat-card>
+      {{conferenceId}}
+    </mat-card>
+    <button mat-raised-button color="primary" type="button" class="mt10" (click)="onJoinClick()">Join</button>
+  </div>
+</div>

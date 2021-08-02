@@ -1,0 +1,28 @@
+.right-panel {
+    min-width: 25%;
+    height: 100%;
+    border: 1px dashed gray;
+}
+
+.participant {
+
+}
+
+.name {
+    font-size: larger;
+}
+
+.info {
+    font-size: smaller;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+li {
+    margin-bottom: 1em;
+}

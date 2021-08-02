@@ -1,0 +1,19 @@
+.video-panel {
+    border: 1px dashed green;
+    height: 100%;
+    width: 100%;
+}
+.my-video {
+    height: 80%;
+    width: 100%;
+}
+.participants-panel {
+    display: flex;
+    flex-direction: row;
+    border: 1px dashed blueviolet;
+    height: 20%;
+}
+.participant-panel {
+    height: 100px;
+    width: 100px;
+}

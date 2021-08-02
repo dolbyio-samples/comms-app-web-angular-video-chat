@@ -1,0 +1,18 @@
+<div class="create-conference-container">
+  <div class="create-conference-content">
+    <p class="mat-headline">
+      Join a conference:
+    </p>
+    <form [formGroup]="conferenceForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>ID</mat-label>
+        <input matInput id="id" type="text" formControlName="id" required />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput id="name" type="text" formControlName="name" required />
+      </mat-form-field>
+      <button mat-raised-button color="primary" class="button" type="submit">Join</button>
+    </form>
+  </div>
+</div>
