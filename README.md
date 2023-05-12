@@ -2,18 +2,21 @@
 
 # How to Use Dolby.io Video Conferencing with Angular
 
-This repo contains code samples for recording audio on Android devices using the Dolby.io APIs. It includes examples of different audio recording scenarios such as recording with noise suppression and recording in stereo.
+This repository contains code sample code for building a video conferencing application using Angular and Dolby.io Communications API. It features screen sharing, chat, and participant management. 
 
 # Overview
 Following the instructions of <a href = "https://dolby.io/blog/how-to-use-dolby-io-video-conferencing-with-angular/"> How to Use Video Conferencing with Angular </a>, this tutorial is a step-by-step guide on how to integrate Dolby.io video conferencing with Angular web applications. It covers everything from setting up a development environment to implementing video conferencing functionality using the Dolby.io API.
 
 # Requirements 
-After cloning this project, open it in Android Studio to test and experiment with different configurations. You'll likely need a physical device, as the emulator can't record audio.
+There are several requirements to follow along with this tutorial: 
+ - Node.js and npm must be installed on your machine. 
+ - Angular CLI must be installed to generate and run the Angular app. 
+ - Any modern web browser to run and test the application
 
 # Getting Started 
 As part of enabling Dolby.io's audio processing capabilities, you would need to sign up for a <a href="https://dashboard.dolby.io/signup/"> Dolby.io account.</a> You receive 50GBs to start out for free, which should help you get started with this project. 
 
-Make sure you have your <a href="https://dolby.io/developers/media-processing/quick-start/analyzing-media#1-get-your-api-key"> API key ready </a> and Android Studio installed on your computer. This project will also require a physical Android device or an emulator to run the app. 
+Once inside the dashboard, make sure you create an app to acquire the API key and secret token. For more information on how to navigate the dashboard, <a href="https://docs.dolby.io/communications-apis/docs/overview-developer-tools"> read here. </a>
 
 # Report a Bug 
 In the case any bugs occur, report it using Github issues, and we will see to it. 
@@ -26,12 +29,12 @@ If there are any suggestions or if you would like to deliver any positive notes,
 
 # Learn More
 For a deeper dive, we welcome you to review the following:
- - <a href = "https://docs.dolby.io/media-apis/docs/enhance-api-guide"> Media Enhance API </a>
- - <a href = "https://docs.dolby.io/media-apis/docs/quick-start-to-enhancing-media"> Getting Started with Enhance API </a>
- - <a href = "https://docs.dolby.io/media-apis/reference/media-enhance-post"> API Reference </a>
- - <a href = "https://dolby.io/search/?_blog_categories=media&_search=android"> How We Produce "The Back Pass" Podcast with Dolby.io Enhance </a>
- - <a href = "https://dolby.io/blog/video-transcoding/"> Video Transcoding: Why is it Important in the Modern Video Landscape? </a>
- - <a href = "https://dolby.io/search/?_blog_categories=media"> Blog Session - Media API </a>
+ - <a href = "https://docs.dolby.io/communications-apis/docs/overview-introduction"> Communications API </a>
+ - <a href = "https://docs.dolby.io/communications-apis/docs/getting-started-with-the-javascript-sdk"> Getting Started with Web SDK </a>
+ - <a href = "https://docs.dolby.io/communications-apis/docs/create-a-basic-audio-conference-application"> More tutorials for Web SDK </a>
+ - <a href = "https://dolby.io/blog/building-a-virtual-event-and-webinar-application-with-react-and-dolby-io/"> Building a Virtual Event and Webinar Application with React and Dolby.io </a>
+ - <a href = "https://dolby.io/blog/kickstart-video-calls-for-your-react-web-app-with-uikit/"> Kickstart Video Calls for Your React Web App with UIKit </a>
+ - <a href = "https://dolby.io/blog/category/communications/"> Blog Session - Communications API </a>
 
 # About Dolby.io
 <p>Dolby.io is a new developer platform by Dolby Laboratories using decades of Dolby's sight and sound technology. Learn how to integrate APIs for real-time streaming, communications, and media processing solutions. You can find the tools, documentation, and sample projects to help you get started.</p>
