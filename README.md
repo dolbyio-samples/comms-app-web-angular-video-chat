@@ -39,8 +39,19 @@ For a deeper dive, we welcome you to review the following:
 ## About Dolby.io
 Dolby.io is a new developer platform by Dolby Laboratories using decades of Dolby's sight and sound technology. Learn how to integrate APIs for real-time streaming, communications, and media processing solutions. You can find the tools, documentation, and sample projects to help you get started.
 
+<div align="center">
+  
 [![Dolby.io Home](https://img.shields.io/badge/-HomePage-yellowgreen)](https://dolby.io/)
 &nbsp; &nbsp; &nbsp;
 [![Dolby.io Documentation](https://img.shields.io/badge/-Our%20Documentation-orange)](https://docs.dolby.io/)
 &nbsp; &nbsp; &nbsp;
-[![@dolbyio on LinkedIn](https://img.shields.io/badge/LinkedIn-0077
+
+[![@dolbyio on LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/dolbyio)
+&nbsp; &nbsp; &nbsp;
+[![@dolbyio on YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DolbyIO/)
+&nbsp; &nbsp; &nbsp;
+[![@dolbyio on Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/DolbyIO/)
+&nbsp; &nbsp; &nbsp;
+  
+</div>
+
