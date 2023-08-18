@@ -4,30 +4,16 @@
       Creating a Conference:
     </p>
     <form [formGroup]="conferenceForm" (ngSubmit)="onSubmit()">
-      <mat-form-field appearance="fill">
-        <mat-label>Pin Code</mat-label>
-        <input matInput id="pinCode" type="text" formControlName="pinCode" />
-      </mat-form-field>
-
       <section class="conf-options-section">
         <mat-checkbox class="checkbox-margin" formControlName="dolbyVoice">Use Dolby Voice</mat-checkbox>
         <mat-checkbox class="checkbox-margin" formControlName="liveRecording">Allow Live Recording</mat-checkbox>
       </section>
 
       <mat-form-field appearance="fill">
-        <mat-label>RTCP Mode</mat-label>
-        <mat-select formControlName="rtcpMode">
-          <mat-option value="worst">Worst</mat-option>
-          <mat-option value="average">Average</mat-option>
-          <mat-option value="max">Max</mat-option>
-        </mat-select>
-      </mat-form-field>
-
-      <mat-form-field appearance="fill">
         <mat-label>Video Codec</mat-label>
         <mat-select required formControlName="videoCodec">
           <mat-option value="H264" selected>H264</mat-option>
-          <mat-option value="V8">V8</mat-option>
+          <mat-option value="VP8">VP8</mat-option>
         </mat-select>
       </mat-form-field>
 

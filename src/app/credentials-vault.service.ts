@@ -8,8 +8,8 @@ export class CredentialsVaultService {
 
     getCredentials() : Promise<any> {
         return Promise.resolve({
-            key: 'AocrLmFwH3_3QWw5H2a-SA==',
-            secret: 'JV9ranRSxiezp88AQe3JiuSbB2LG10DcfwBt-1L_1N8=',
+            key: 'APP_KEY',
+            secret: 'APP_SECRET',
         });
     }
 }

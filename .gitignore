@@ -1,6 +1,8 @@
+.DS_Store
 node_modules
-dist/client/*
+dist
 .vscode/*
 readme.en.md
 readme.ru.md
 .nvmrc
+.angular

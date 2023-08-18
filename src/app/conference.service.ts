@@ -28,6 +28,7 @@ export class ConferenceService {
     }
 
     async initialize() {
+        VoxeetSDK.packageUrlPrefix = './';
         const credentials = await this.credentialsVault.getCredentials();
         VoxeetSDK.initialize(credentials.key, credentials.secret);
     }

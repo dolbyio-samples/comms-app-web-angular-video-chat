@@ -14,10 +14,8 @@ export class CreateConferenceComponent {
   conferenceId = null;
   conferenceForm = this.formBuilder.group({
     alias: '',
-    pinCode: '',
     dolbyVoice: true,
     liveRecording: false,
-    rtcpMode: 'average',
     videoCodec: 'H264'
   });
 
