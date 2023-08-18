@@ -28,6 +28,9 @@ export class ConferenceService {
     }
 
     async initialize() {
+        // Set where to load the WASM files
+        VoxeetSDK.packageUrlPrefix = './';
+
         const credentials = await this.credentialsVault.getCredentials();
         VoxeetSDK.initialize(credentials.key, credentials.secret);
     }

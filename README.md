@@ -18,6 +18,8 @@ As part of enabling Dolby.io's audio processing capabilities, you would need to 
 
 Once inside the dashboard, make sure you create an app to acquire the API key and secret token. For more information on how to navigate the dashboard, [read here](https://docs.dolby.io/communications-apis/docs/overview-developer-tools).
 
+Go to the file `src/app/credentials-vault.service.ts` and update your app key and secret based on what is provided to you in your dolby.io dashboard.
+
 ## Report a Bug 
 In the case any bugs occur, report it using Github issues, and we will see to it. 
 

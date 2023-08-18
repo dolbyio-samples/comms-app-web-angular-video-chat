@@ -21,7 +21,27 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.wasm",
+                "input": "./node_modules/@voxeet/voxeet-web-sdk/dist/",
+                "output": "./"
+              },
+              {
+                "glob": "**/*.bin",
+                "input": "./node_modules/@voxeet/voxeet-web-sdk/dist/",
+                "output": "./"
+              },
+              {
+                "glob": "**/voxeet-dvwc-worker.js",
+                "input": "./node_modules/@voxeet/voxeet-web-sdk/dist/",
+                "output": "./"
+              },
+              {
+                "glob": "**/voxeet-worklet.js",
+                "input": "./node_modules/@voxeet/voxeet-web-sdk/dist/",
+                "output": "./"
+              }
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
@@ -125,6 +145,5 @@
         }
       }
     }
-  },
-  "defaultProject": "client"
+  }
 }
