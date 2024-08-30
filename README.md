@@ -1,3 +1,5 @@
+# :warning: This repository is no longer maintained :warning:
+
 [![License](https://img.shields.io/github/license/dolbyio-samples/blog-angular-videoconference)](LICENSE)
 ![Blog Picture](https://dolby.io/wp-content/uploads/2021/09/How-to-Use-DolbyIO-Video-Conferencing-with-Angular.jpg)
 # How to Use Dolby.io Video Conferencing with Angular
